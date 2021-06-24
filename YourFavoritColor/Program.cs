@@ -15,7 +15,7 @@ namespace YourFavoritColor
                 Console.BackgroundColor = ConsoleColor.Red;
                 Console.ForegroundColor = ConsoleColor.Black;
 
-                Console.Write("Your color is red!");
+                Console.WriteLine("Your color is red!");
             }
 
             else if(color == "green")
@@ -23,7 +23,7 @@ namespace YourFavoritColor
                 Console.BackgroundColor = ConsoleColor.Green;
                 Console.ForegroundColor = ConsoleColor.Black;
 
-                Console.Write("Your color is green!");
+                Console.WriteLine("Your color is green!");
             }
 
             else
@@ -31,7 +31,7 @@ namespace YourFavoritColor
                 Console.BackgroundColor = ConsoleColor.Cyan;
                 Console.ForegroundColor = ConsoleColor.Black;
 
-                Console.Write("Your color is cyan!");
+                Console.WriteLine("Your color is cyan!\n");
             }
         }
     }
